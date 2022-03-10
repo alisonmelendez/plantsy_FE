@@ -9,13 +9,13 @@ function App() {
 
  const [plants, setPlants] = useState([])
 
- const URL = "http://localhost:9292/plants/"
+ const URL = "http://localhost:9292/plants"
 
  useEffect(() => {
     fetch(URL)
       .then((resp) => resp.json())
       .then((data) => {
-        setPlants(data.results)
+        setPlants(data)
       });
 }, []);
 
@@ -31,9 +31,9 @@ const plantImg = plants.map((plant) => {
       <div>
       {plants.length === 0 ? <p>no results</p> :plantImg}
 
-        <Route path="/Plants/:name">
+        {/* <Route path="/Plants/:name">
               <PlantPage/>
-        </Route>
+        </Route> */}
 
       </div>
 
