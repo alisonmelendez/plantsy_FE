@@ -26,7 +26,7 @@ const plantImg = plants.map((plant) => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 style={{ textAlign : "center"}}>Plantsy</h1>
+        <h1>Plantsy 🌱</h1>
       </header>
       <div>
       {plants.length === 0 ? <p>no results</p> :plantImg}
