@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 
 
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Plantsy</h1>
+        <h1 style={{ textAlign : "center"}}>Plantsy</h1>
       </header>
       <p>chicken little</p>
     </div>
@@ -13,3 +14,7 @@ function App() {
 }
 
 export default App;
+
+
+
+
