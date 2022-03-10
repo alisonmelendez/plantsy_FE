@@ -31,10 +31,6 @@ const plantImg = plants.map((plant) => {
       <div>
       {plants.length === 0 ? <p>no results</p> :plantImg}
 
-        {/* <Route path="/Plants/:name">
-              <PlantPage/>
-        </Route> */}
-
       </div>
 
     </div>
