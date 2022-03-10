@@ -1,17 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Plant({ plant }) {
-
-    console.log(plant)
     return(
         <div>
-            <img id="flower" src={require(`../public_images/${plant.src}`)} />
+            <Link to={`/plants/${plant.name}`}><img id="flower"
 
-            {/* src="src/public_images/Azalea.png" */}
-           
+            src={require(`../public_images/${plant.src}`)} 
+            /></Link>
         </div>
     );
 }
 
 export default Plant
-

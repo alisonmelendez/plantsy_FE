@@ -28,16 +28,73 @@ h1{
   align-items: center;
   justify-content: center;
 
-  height: 200px; 
-  width: 200px; 
+  height: 100px; 
+  width: 100px; 
   margin-left: auto;
   margin-right:auto;
-
+  float:left;
 }
 
 #flower:hover{
-  /* background-color: yellow; */
-  /* outline: #333 solid 4px; */
-  /* box-shadow: 10px 10px 5px #000000; */
   filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
 }
+
+/* set each flower to a specific position */
+#Azalea{
+  height: 200px; 
+  width: 200px; 
+}
+
+#Begonia{
+  height: 200px; 
+  width: 200px; 
+}
+
+#Cactus{
+  height: 200px; 
+  width: 200px; 
+}
+
+#Camellia{
+  height: 200px; 
+  width: 200px; 
+}
+#DustyMiller{
+  height: 200px; 
+  width: 200px; 
+}
+
+#Geranium{
+  height: 200px; 
+  width: 200px; 
+}
+
+#Marigold{
+  height: 200px; 
+  width: 200px; 
+}
+
+#Pansy{
+  height: 200px; 
+  width: 200px; 
+}
+#Petunia{
+  height: 200px; 
+  width: 200px; 
+}
+
+#Primrose{
+  height: 200px; 
+  width: 200px; 
+}
+
+#Snowdrop{
+  height: 200px; 
+  width: 200px; 
+}
+
+#SweetAlyssum{
+  height: 200px; 
+  width: 200px; 
+}
+
