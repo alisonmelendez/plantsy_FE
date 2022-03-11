@@ -41,6 +41,26 @@ p{
   margin: auto; 
 }
 
+.CareListItem{
+  list-style-type: none; 
+}
+
+#description{
+  padding: 0px 20px;  
+}
+
+#description p{
+  padding: 50px; 
+  background-color: rgba(148, 184, 137, 0.6);
+  border-radius: 100px;
+  margin: 30px 40px;
+}
+#bName{
+  font-weight: 200;
+  color:rgb(116, 146, 172);
+  font-style: italic;
+}
+
 #plantPageImage{
   display: block; 
   margin: auto; 
@@ -62,6 +82,7 @@ p{
   background-size:cover; 
   border-radius: 50%;
   border: 5px solid #555;
+  margin-right: 50px;
 }
 
 #HomeButton{
@@ -73,6 +94,8 @@ p{
   padding: 10px 20px; 
   border-radius: 10px;
   border-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #link{
@@ -87,17 +110,30 @@ p{
 
 .flex-container {
   display: flex;
+  padding: 10px 20px;
 }
 
 .flex-child {
   flex: 1;
-  border: 2px solid yellow;
+  border: 3px solid rgb(178, 207, 165);
+  border-radius: 5%;
   flex-direction: column;
+  padding: 50px 20px;
+  background-color: rgba(148, 184, 137, 0.6);
 }  
 
 .flex-child:first-child {
   margin-right: 20px; 
 } 
+
+.detailTitle{
+  text-align: center;
+  color:rgb(45, 49, 47)
+}
+
+#plantFact{
+  padding: 20px;
+}
 
 /* Add hover to each individual flower */
 
