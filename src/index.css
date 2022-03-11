@@ -60,11 +60,15 @@ p{
   background-color: rgba(148, 184, 137, 0.6);
   border-radius: 100px;
   margin: 30px 40px;
+  color: black; 
 }
 #bName{
   font-weight: 200;
   color:rgb(116, 146, 172);
   font-style: italic;
+  font-size: 35px; 
+  padding: 0px;
+  margin: 0px;
 }
 
 #plantPageImage{
@@ -73,10 +77,13 @@ p{
 }
 
 #plantPageHeader{
-  display: inline-block;
+  /* display: inline-block; */
   text-align: center;
   background-color: white;
-  color: black; 
+  color: black;
+  font-size: 100px; 
+  padding: 0px;
+  margin: 0px;
 }
 
 #plantPageIcon{
@@ -89,6 +96,13 @@ p{
   border-radius: 50%;
   border: 5px solid #555;
   margin-right: 50px;
+}
+
+#plantNameInfo{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
 }
 
 #HomeButton{
@@ -112,6 +126,11 @@ p{
   display: flex;
   align-items: center;
   justify-content: center; 
+}
+
+#careList{
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .flex-container {

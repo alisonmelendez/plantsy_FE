@@ -39,23 +39,26 @@ function PlantPage() {
 
         <div style={{  
         background: "white",
-        width: "200vh",
-        height: "100vh"
+        width: "150vh",
+        height: "130vh",
+        display:"block",
+        margin:"auto",
+        borderRadius:"25px"
         }}>
-
-        {/* for styling  */}
-        {/* <div class="rectangle"></div>     */}
-
-       
+            
         <button id="HomeButton"><Link id="link"to="/">Home</Link></button>
 
         <div id="iconTitleHeader">
         <img id="plantPageIcon" src={require(`../public_images/${plantPage.src}`)}></img>
+        
+        <div id="plantNameInfo">
         <h1 id="plantPageHeader">{plantPage.name}</h1>
+        <h2 id="bName">{plantPage.botanical_name}</h2>
         </div>
 
-        <h2 id="bName">{plantPage.botanical_name}</h2>
-        {/* <img id="plantPageImage" src={require(`../public_images/${plantPage.src}`)}></img> */}
+        </div>
+
+        {/* <h2 id="bName">{plantPage.botanical_name}</h2> */}
         <div id="description">
         <p>{plantPage.description}</p>
         </div>
@@ -64,7 +67,7 @@ function PlantPage() {
 
             <div class="flex-child info">
                 <h2 class="detailTitle"> Plant Care </h2>
-                <ul>
+                <ul id="careList">
                     <img class="icon" src="https://img.icons8.com/fluency/48/000000/sun.png"/><li class="CareListItem">Sun: {plantPage.sun_amount}</li>
                     <img class="icon" src="https://img.icons8.com/color/48/000000/soil.png"/> <li class="CareListItem">Soil: {plantPage.soil}</li>
                     <img class="icon" src="https://img.icons8.com/fluency/48/000000/star.png"/> <li class="CareListItem">Difficulty: {plantPage.difficulty}</li>
