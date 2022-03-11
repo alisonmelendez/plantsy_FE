@@ -8,23 +8,17 @@ import Homepage from "./Homepage";
 
 function App() {
 
- 
-
   return (
-    <Switch>
+    <Switch> 
         <Route exact path="/">
         <Homepage />
       </Route>
       <Route path="/Plants/:name">
               <PlantPage/>
         </Route>
-      </Switch>
+    </Switch>
     
   );
 }
 
-export default App;
-
-
-
-
+export default App; 

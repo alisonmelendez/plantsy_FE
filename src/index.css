@@ -21,21 +21,66 @@ h1{
   background-color: rgb(116, 146, 172);
 }
 
-#flower{
-  cursor: pointer;
-
-  display: block;
-  align-items: center;
-  justify-content: center;
-
-  height: 100px; 
-  width: 100px; 
-  margin-left: auto;
-  margin-right:auto;
-  float:left;
+p{
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 300; 
+  background-color: rgb(116, 146, 172);
 }
 
-#flower:hover{
+/* .dot {
+  height: 250px;
+  width: 250px;
+  background-color: rgb(116, 146, 172);
+  border-radius: 50%;
+  border: solid black;
+  display: inline-block;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/* Add hover to each individual flower */
+
+#Azalea:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+
+#Begonia:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+#Cactus:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+#Camellia:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+#DustyMiller:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+
+#Geranium:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+#Marigold:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+#Pansy:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+#Petunia:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+
+#Primrose:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+#Snowdrop:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+#SweetAlyssum:hover{
   filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
 }
 
@@ -43,58 +88,138 @@ h1{
 #Azalea{
   height: 200px; 
   width: 200px; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  float:left;
+
+  position: absolute;
+    bottom: -65px;
+    right: 75px;
 }
 
 #Begonia{
   height: 200px; 
   width: 200px; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  float:left;
+
+  position: absolute;
+    bottom: -45px;
+    left: 25px;
 }
 
 #Cactus{
   height: 200px; 
   width: 200px; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  float:left;
 }
 
 #Camellia{
   height: 200px; 
   width: 200px; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  float:left;
 }
 #DustyMiller{
   height: 200px; 
   width: 200px; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  float:left;
 }
 
 #Geranium{
   height: 200px; 
   width: 200px; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  float:left;
 }
 
 #Marigold{
   height: 200px; 
   width: 200px; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  float:left;
 }
 
 #Pansy{
   height: 200px; 
   width: 200px; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  float:left;
 }
 #Petunia{
   height: 200px; 
   width: 200px; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  float:left; 
 }
 
 #Primrose{
   height: 200px; 
   width: 200px; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  float:left;
 }
 
 #Snowdrop{
   height: 200px; 
   width: 200px; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  float:left;
 }
 
 #SweetAlyssum{
   height: 200px; 
   width: 200px; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  float:left; 
 }
 
