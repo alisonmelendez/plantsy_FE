@@ -27,6 +27,8 @@ const plantImg = plants.map((plant) => {
     <div className="App">
       <header className="App-header">
         <h1>Plantsy 🌱</h1>
+        <p> Add a section here to describe what to do (find the plants yourself by hovering around)</p>
+        <span class="dot"></span>
       </header>
       <div>
       {plants.length === 0 ? <p>no results</p> :plantImg}

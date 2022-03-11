@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Plant({ plant }) {
     return(
         <div>
-            <Link to={`/plants/${plant.name}`}><img id="flower"
+            <Link to={`/plants/${plant.name}`}><img id={plant.name}
 
             src={require(`../public_images/${plant.src}`)} 
             /></Link>
