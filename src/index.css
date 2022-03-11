@@ -21,6 +21,11 @@ h1{
   background-color: rgb(116, 146, 172);
 }
 
+h2{
+  text-align: center;
+  color: red;
+}
+
 p{
   text-align: center;
   color: whitesmoke;
@@ -28,19 +33,71 @@ p{
   background-color: rgb(116, 146, 172);
 }
 
-/* .dot {
-  height: 250px;
-  width: 250px;
-  background-color: rgb(116, 146, 172);
-  border-radius: 50%;
-  border: solid black;
-  display: inline-block;
+.rectangle {
+  height: 200px;
+  width: 200px;
+  background-color: #555;
+  display: block; 
+  margin: auto; 
+}
 
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
+#plantPageImage{
+  display: block; 
+  margin: auto; 
+}
+
+#plantPageHeader{
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  color: black; 
+}
+
+#plantPageIcon{
+  display: inline-block; 
+  position: relative; 
+  width: 200px; 
+  height: 200px; 
+  overflow: hidden; 
+  background-size:cover; 
+  border-radius: 50%;
+  border: 5px solid #555;
+}
+
+#HomeButton{
+  text-decoration: none;
+  text-align: center;
+  display: block; 
+  margin: auto; 
+  background-color: #82c8a0;
+  padding: 10px 20px; 
+  border-radius: 10px;
+  border-style: none;
+}
+
+#link{
+  text-decoration: none;
+}
+
+#iconTitleHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid yellow;
+  flex-direction: column;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px; 
+} 
 
 /* Add hover to each individual flower */
 

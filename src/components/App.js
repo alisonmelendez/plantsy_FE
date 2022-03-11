@@ -14,7 +14,7 @@ function App() {
         <Homepage />
       </Route>
       <Route path="/Plants/:name">
-              <PlantPage/>
+              <PlantPage />
         </Route>
     </Switch>
     
