@@ -11,7 +11,7 @@ function PlantPage() {
     console.log(params.name)
 
     const URLpage = `http://localhost:9292/plantpages/${params.name}`
-    // const URLfact = `http://localhost:9292/facts/`
+    const URLfact = `http://localhost:9292/facts/${params.name}`
    
     console.log(URLpage)
     useEffect(() => {
@@ -22,15 +22,17 @@ function PlantPage() {
          });
    }, []);
 
-//    useEffect(() => {
-//     fetch(URLfact)
-//       .then((resp) => resp.json())
-//       .then((data) => {
-//         setFacts(data)
-//       });
-//     }, []);
+   useEffect(() => {
+    fetch(URLfact)
+      .then((resp) => resp.json())
+      .then((data) => {
+        setFacts(data)
+      });
+    }, []);
         
     if(plantPage.length == 0) {return null}
+    if(facts.length == 0) {return null}
+    console.log(facts)
 
     return(
         <div style={{  background: "white",
@@ -66,9 +68,9 @@ function PlantPage() {
             
             <div class="flex-child green">
                 <ul>
-                    <li>fact.fact</li>
-                    <li>fact.fact</li>
-                    <li>fact.fact</li>
+                    {facts.map((fact) =>{
+                        return <li>{fact.fact}</li>
+                    })}
                 </ul>
             </div>
         
